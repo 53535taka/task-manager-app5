@@ -1,27 +1,30 @@
 # タスク管理アプリ
 
-## 概要
+## アプリケーション概要
 
-Laravelを使用して作成したタスク管理アプリケーションです。
+タスクを管理するためのWebアプリケーションです。
 
 ユーザー認証機能、タスク管理機能、カテゴリー管理機能を実装しています。また、タスク情報を取得する公開APIを提供しています。
 
 ## 作成者
 
-COACHTECH 学習課題
+- 五味孝興
 
 ## 使用技術
 
-- PHP 8.5.8
-- Laravel 10.50.4
-- MySQL 8.4
-- Laravel Fortify
-- Laravel Sanctum
-- Docker
-- Laravel Sail
-- Tailwind CSS 3.4.19
-- Vite 5
-- PHPUnit
+- PHP：8.5.8
+- Laravel：10.50.4
+- Composer：2.10.2
+- MySQL：8.4
+- Docker：使用
+- Laravel Sail：使用
+- Laravel Fortify：認証機能
+- Laravel Sanctum：API認証関連
+- JavaScript
+- CSS：Tailwind CSS 3.4.19
+- Node.js：24.18.0
+- npm：12.0.1
+- Vite：5.4.21
 
 ## ER図
 
@@ -62,14 +65,17 @@ erDiagram
 
 - アプリケーション：http://localhost
 - phpMyAdmin：http://localhost:8080
-- Vite：http://localhost:5173
 
 ## 動作環境
 
 - PHP 8.5.8
 - Laravel 10.50.4
+- Composer 2.10.2
 - MySQL 8.4
-- Docker / Laravel Sail
+- Node.js 24.18.0
+- npm 12.0.1
+- Docker
+- Laravel Sail
 
 ## 環境構築手順
 
@@ -157,7 +163,7 @@ composer install
     - 2：中
     - 3：高
 
-## API一覧
+## APIエンドポイント
 
 認証不要でタスク情報を取得できる公開APIです。
 
